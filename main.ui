@@ -1,0 +1,547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>721</width>
+    <height>141</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: qlineargradient(spread:pad, x1:0.89, y1:0, x2:0.687, y2:0.818182, stop:0 rgba(147, 181, 238, 255), stop:1 rgba(221, 221, 221, 255));</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label0">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.367, y1:0, x2:1, y2:1, stop:0 rgba(248, 248, 248, 255), stop:1 rgba(186, 186, 186, 255));
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>ID</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label1">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>0</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.367, y1:0, x2:1, y2:1, stop:0 rgba(248, 248, 248, 255), stop:1 rgba(186, 186, 186, 255));
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;название&lt;/p&gt;&lt;p&gt;сорта&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label3">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>0</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.367, y1:0, x2:1, y2:1, stop:0 rgba(248, 248, 248, 255), stop:1 rgba(186, 186, 186, 255));
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;молотый /&lt;/p&gt;&lt;p&gt;в зернах&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label4">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>0</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.367, y1:0, x2:1, y2:1, stop:0 rgba(248, 248, 248, 255), stop:1 rgba(186, 186, 186, 255));
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;описание&lt;/p&gt;&lt;p&gt;вкуса&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label2">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>0</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.367, y1:0, x2:1, y2:1, stop:0 rgba(248, 248, 248, 255), stop:1 rgba(186, 186, 186, 255));
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;степень&lt;/p&gt;&lt;p&gt;обжарки&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label5">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>0</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.367, y1:0, x2:1, y2:1, stop:0 rgba(248, 248, 248, 255), stop:1 rgba(186, 186, 186, 255));
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>цена</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label6">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>0</y>
+      <width>91</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.367, y1:0, x2:1, y2:1, stop:0 rgba(248, 248, 248, 255), stop:1 rgba(186, 186, 186, 255));
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;объем&lt;/p&gt;&lt;p&gt;упаковки&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="espresso_label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>80</y>
+      <width>721</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.367, y1:0, x2:1, y2:1, stop:0 rgba(248, 248, 248, 255), stop:1 rgba(186, 186, 186, 255));
+font: 75 10pt &quot;MS Shell Dlg 2&quot;;</string>
+    </property>
+    <property name="text">
+     <string>TextLabel</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cBox1">
+    <property name="geometry">
+     <rect>
+      <x>92</x>
+      <y>61</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.367, y1:0, x2:1, y2:1, stop:0 rgba(248, 248, 248, 255), stop:1 rgba(186, 186, 186, 255));</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>None</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>a1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>b1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>c1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>d1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>e1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>f1</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cBox2">
+    <property name="geometry">
+     <rect>
+      <x>182</x>
+      <y>61</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.367, y1:0, x2:1, y2:1, stop:0 rgba(248, 248, 248, 255), stop:1 rgba(186, 186, 186, 255));</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>None</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>a2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>b2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>c2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>d2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>e2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>f2</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cBox3">
+    <property name="geometry">
+     <rect>
+      <x>272</x>
+      <y>61</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.367, y1:0, x2:1, y2:1, stop:0 rgba(248, 248, 248, 255), stop:1 rgba(186, 186, 186, 255));</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>None</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>a3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>b3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>c3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>d3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>e3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>f3</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cBox4">
+    <property name="geometry">
+     <rect>
+      <x>362</x>
+      <y>61</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.367, y1:0, x2:1, y2:1, stop:0 rgba(248, 248, 248, 255), stop:1 rgba(186, 186, 186, 255));</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>None</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>a4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>b4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>c4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>d4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>e4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>f4</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cBox5">
+    <property name="geometry">
+     <rect>
+      <x>452</x>
+      <y>61</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.367, y1:0, x2:1, y2:1, stop:0 rgba(248, 248, 248, 255), stop:1 rgba(186, 186, 186, 255));</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>None</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>a5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>b5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>c5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>d5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>e5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>f5</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cBox6">
+    <property name="geometry">
+     <rect>
+      <x>542</x>
+      <y>61</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.367, y1:0, x2:1, y2:1, stop:0 rgba(248, 248, 248, 255), stop:1 rgba(186, 186, 186, 255));</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>None</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>a6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>b6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>c6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>d6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>e6</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>f6</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cBox0">
+    <property name="geometry">
+     <rect>
+      <x>1</x>
+      <y>61</y>
+      <width>91</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: qlineargradient(spread:pad, x1:0.367, y1:0, x2:1, y2:1, stop:0 rgba(248, 248, 248, 255), stop:1 rgba(186, 186, 186, 255));</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>None</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>1</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>2</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>3</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>4</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>5</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>6</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="button">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>0</y>
+      <width>91</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+	background-color: qlineargradient(spread:pad, x1:0.367, y1:0, x2:1, y2:1, stop:0 rgba(248, 248, 248, 255), stop:1 rgba(186, 186, 186, 255));
+    }
+
+QPushButton:hover {
+    background-color: qlineargradient(spread:pad, x1:0.367, y1:0, x2:1, y2:1, stop:0 rgba(234, 234, 234, 255), stop:1 rgba(159, 159, 159, 255));
+}
+
+QPushButton:pressed {
+    background-color: qlineargradient(spread:pad, x1:0, y1:0.483, x2:0, y2:1, stop:0.0348259 rgba(231, 231, 231, 255), stop:1 rgba(161, 161, 161, 255));
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Show</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
